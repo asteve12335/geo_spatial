@@ -4,13 +4,57 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-rasterio = "*"
-numpy = "*"
-scikit-learn = "*"
-matplotlib = "*"
-joblib = "*"
-opencv-python = "*"
-streamlit = "*"
+affine = {version = "==2.4.0", markers = "python_version >= \"3.7\""}
+altair = {version = "==6.0.0", markers = "python_version >= \"3.9\""}
+attrs = {version = "==26.1.0", markers = "python_version >= \"3.9\""}
+blinker = {version = "==1.9.0", markers = "python_version >= \"3.9\""}
+cachetools = {version = "==7.0.5", markers = "python_version >= \"3.10\""}
+certifi = {version = "==2026.2.25", markers = "python_version >= \"3.7\""}
+charset-normalizer = {version = "==3.4.7", markers = "python_version >= \"3.7\""}
+click = {version = "==8.3.2", markers = "python_version >= \"3.10\""}
+cligj = {version = "==0.7.2", markers = "python_version >= \"2.7\" and python_version not in \"3.0, 3.1, 3.2\" and python_version < \"4\""}
+colorama = {version = "==0.4.6", markers = "python_version >= \"2.7\" and python_version not in \"3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6\""}
+contourpy = {version = "==1.3.3", markers = "python_version >= \"3.11\""}
+cycler = {version = "==0.12.1", markers = "python_version >= \"3.8\""}
+fonttools = {version = "==4.62.1", markers = "python_version >= \"3.10\""}
+gitdb = {version = "==4.0.12", markers = "python_version >= \"3.7\""}
+gitpython = {version = "==3.1.46", markers = "python_version >= \"3.7\""}
+idna = {version = "==3.11", markers = "python_version >= \"3.8\""}
+jinja2 = {version = "==3.1.6", markers = "python_version >= \"3.7\""}
+joblib = {version = "==1.5.3", markers = "python_version >= \"3.9\""}
+jsonschema = {version = "==4.26.0", markers = "python_version >= \"3.10\""}
+jsonschema-specifications = {version = "==2025.9.1", markers = "python_version >= \"3.9\""}
+kiwisolver = {version = "==1.5.0", markers = "python_version >= \"3.10\""}
+markupsafe = {version = "==3.0.3", markers = "python_version >= \"3.9\""}
+matplotlib = {version = "==3.10.8", markers = "python_version >= \"3.10\""}
+narwhals = {version = "==2.19.0", markers = "python_version >= \"3.9\""}
+numpy = {version = "==2.4.4", markers = "python_version >= \"3.11\""}
+opencv-python-headless = {version = "==4.13.0.92", markers = "python_version >= \"3.6\""}
+packaging = {version = "==26.1", markers = "python_version >= \"3.8\""}
+pandas = {version = "==3.0.2", markers = "python_version >= \"3.11\""}
+pillow = {version = "==12.2.0", markers = "python_version >= \"3.10\""}
+protobuf = {version = "==7.34.1", markers = "python_version >= \"3.10\""}
+pyarrow = {version = "==23.0.1", markers = "python_version >= \"3.10\""}
+pydeck = {version = "==0.9.1", markers = "python_version >= \"3.8\""}
+pyparsing = {version = "==3.3.2", markers = "python_version >= \"3.9\""}
+python-dateutil = {version = "==2.9.0.post0", markers = "python_version >= \"2.7\" and python_version not in \"3.0, 3.1, 3.2\""}
+rasterio = {version = "==1.5.0", markers = "python_version >= \"3.12\""}
+referencing = {version = "==0.37.0", markers = "python_version >= \"3.10\""}
+requests = {version = "==2.33.1", markers = "python_version >= \"3.10\""}
+rpds-py = {version = "==0.30.0", markers = "python_version >= \"3.10\""}
+scikit-learn = {version = "==1.8.0", markers = "python_version >= \"3.11\""}
+scipy = {version = "==1.17.1", markers = "python_version >= \"3.11\""}
+six = {version = "==1.17.0", markers = "python_version >= \"2.7\" and python_version not in \"3.0, 3.1, 3.2\""}
+smmap = {version = "==5.0.3", markers = "python_version >= \"3.7\""}
+streamlit = {version = "==1.56.0", markers = "python_version >= \"3.10\""}
+tenacity = {version = "==9.1.4", markers = "python_version >= \"3.10\""}
+threadpoolctl = {version = "==3.6.0", markers = "python_version >= \"3.9\""}
+toml = {version = "==0.10.2", markers = "python_version >= \"2.6\" and python_version not in \"3.0, 3.1, 3.2\""}
+tornado = {version = "==6.5.5", markers = "python_version >= \"3.9\""}
+typing-extensions = {version = "==4.15.0", markers = "python_version >= \"3.9\""}
+tzdata = {version = "==2026.1", markers = "python_version >= \"2\""}
+urllib3 = {version = "==2.6.3", markers = "python_version >= \"3.9\""}
+watchdog = {version = "==6.0.0", markers = "python_version >= \"3.9\""}
 
 [dev-packages]
 ipykernel = "*"
